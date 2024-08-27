@@ -1,0 +1,176 @@
+(footprint "R0805_DNF"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "R0805 DNF 40x55mil pads 32mil gap")
+	(tags "res resistor 0805 DNF DNP")
+	(property "Reference" "REF**"
+		(at 0 -1.524 0)
+		(layer "F.SilkS")
+		(uuid "effead60-2b17-4463-91cf-34792a2b459a")
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.1778)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "R0805_DNF"
+		(at 0 1.524 0)
+		(layer "F.Fab")
+		(uuid "83cd9c78-75b4-4eec-9501-2ff4a6e7a26e")
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.1778)
+				(bold yes)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ee2e200-bbcb-4556-a56c-a1a97117943b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10e8fbff-4a7b-46b4-8e2f-6ae1745031fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0fa36770-2fec-4d72-9ed4-680ead5632e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.524 -0.8001)
+		(end -1.524 0.8001)
+		(stroke
+			(width 0.0508)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "618e2796-9d45-40f8-8fee-6a49be55bc1c")
+	)
+	(fp_line
+		(start -1.524 0.8001)
+		(end 1.524 0.8001)
+		(stroke
+			(width 0.0508)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b6e1b0ea-af0a-4d60-a03a-9d155338a4dc")
+	)
+	(fp_line
+		(start 1.524 -0.8001)
+		(end -1.524 -0.8001)
+		(stroke
+			(width 0.0508)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a73509c5-c751-445e-a3b5-5ec1bfa8c18d")
+	)
+	(fp_line
+		(start 1.524 -0.8001)
+		(end 1.524 0.8001)
+		(stroke
+			(width 0.0508)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "66187efe-bceb-4c6f-8560-8ff64d4392be")
+	)
+	(fp_line
+		(start -1.016 -0.635)
+		(end 1.016 -0.635)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e73c85cd-37bc-422b-91a3-e268ce9a1281")
+	)
+	(fp_line
+		(start -1.016 0.635)
+		(end -1.016 -0.635)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37f98079-19ff-4dd9-ac60-76d47722b840")
+	)
+	(fp_line
+		(start 1.016 -0.635)
+		(end 1.016 0.635)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b1a33891-38ab-48fb-8542-eb6b9260c23c")
+	)
+	(fp_line
+		(start 1.016 0.635)
+		(end -1.016 0.635)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0e87530-3bac-4895-be8c-fdb50669192d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b5354c63-16aa-4898-aa0c-eeb3d035fc5f")
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.1778)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9144 0)
+		(size 1.016 1.397)
+		(layers "F.Cu" "F.Mask")
+		(uuid "9702d628-9b91-4d58-9130-9271bd872f5b")
+	)
+	(pad "2" smd rect
+		(at 0.9144 0)
+		(size 1.016 1.397)
+		(layers "F.Cu" "F.Mask")
+		(uuid "1ad1544b-7ba3-4927-93fd-ab9c0a8dba06")
+	)
+)

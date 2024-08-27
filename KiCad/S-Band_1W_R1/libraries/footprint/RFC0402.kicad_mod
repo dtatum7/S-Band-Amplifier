@@ -1,0 +1,215 @@
+(footprint "RFC0402"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "RFC0402 20x26mil pads 20mil keepout")
+	(tags "RF cap capacitor 0402")
+	(property "Reference" "REF**"
+		(at 0 -1.016 0)
+		(layer "F.SilkS")
+		(uuid "41d78466-b78f-4259-a93b-b5098dbbea74")
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.1778)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "RFC0402"
+		(at 0 1.016 0)
+		(layer "F.Fab")
+		(uuid "c8b0a43f-eb80-49fa-9f77-e02d4b03d7c9")
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.1778)
+				(bold yes)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f6a9d3b-fb7b-4565-80e4-5b827c8bc8b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "699544f9-c000-45e0-9d17-0808cbafe19c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b59eb63-0b86-4675-bb9b-6b50aaf59b76")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.8636 -0.4318)
+		(end 0.8636 -0.4318)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "37a147d4-3d5d-4a47-8102-c954a7e61a94")
+	)
+	(fp_line
+		(start -0.8636 0.4318)
+		(end -0.8636 -0.4318)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1121d59e-f03d-42ac-85a2-357338f6cb7d")
+	)
+	(fp_line
+		(start 0.8636 -0.4318)
+		(end 0.8636 0.4318)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "332a6d58-096d-4cc7-9324-96105a58f8d7")
+	)
+	(fp_line
+		(start 0.8636 0.4318)
+		(end -0.8636 0.4318)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a5090ca4-de76-43ea-a14c-c1e11daae04b")
+	)
+	(fp_line
+		(start -0.508 -0.254)
+		(end 0.508 -0.254)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0edac8e6-603d-4c23-9a8d-87b7828535e7")
+	)
+	(fp_line
+		(start -0.508 0.254)
+		(end -0.508 -0.254)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0002ebe0-efa8-4b95-83e7-32c01da101d3")
+	)
+	(fp_line
+		(start 0.508 -0.254)
+		(end 0.508 0.254)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7304b2ae-d880-4161-8ee8-5c789bdcc8f2")
+	)
+	(fp_line
+		(start 0.508 0.254)
+		(end -0.508 0.254)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7d1add3-23e8-4f76-aeee-31687030077f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3061a90f-a481-4c92-b184-11e8cdb5c40e")
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.1778)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.508 0)
+		(size 0.508 0.6604)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "71bd5113-61af-4f98-a937-b89111941731")
+	)
+	(pad "2" smd rect
+		(at 0.508 0)
+		(size 0.508 0.6604)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b2dc4744-6f7a-4267-a134-185dba0d1741")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "901469ab-6fc6-4efd-86c8-09c6846dd910")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -0.254 -0.3302) (xy 0.254 -0.3302) (xy 0.254 0.3302) (xy -0.254 0.3302)
+			)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

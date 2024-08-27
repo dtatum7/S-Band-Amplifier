@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "proj_library")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprint")(options "")(descr ""))
+  (lib (name "kicad_pool")(type "KiCad")(uri "C:/Users/Daniel Tatum/Downloads/kicad_pool")(options "")(descr ""))
+)

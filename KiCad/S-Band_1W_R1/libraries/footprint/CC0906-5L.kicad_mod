@@ -1,0 +1,184 @@
+(footprint "CC0906-5L"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "0906-5L series Coilcraft inductor")
+	(tags "ind inductor 0906")
+	(property "Reference" "REF**"
+		(at 0 -1.27 0)
+		(layer "F.SilkS")
+		(uuid "6df974b4-b819-4abf-a570-cfac24b90f22")
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.1778)
+			)
+		)
+	)
+	(property "Value" "CC0906-5L"
+		(at 0 1.27 0)
+		(layer "F.Fab")
+		(uuid "43a2d3f9-8880-4891-bb65-e1f1adf1c2a5")
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.1778)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f0e4074-96ae-4ea8-867e-199cfa095a90")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0814cc48-e15c-47d7-a42f-32beb2895ccf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ae02bb0-5305-4720-96a2-b8307ae3a157")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.4097 -1.8415)
+		(end -1.4097 1.8415)
+		(stroke
+			(width 0.0508)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d420d831-bcef-45ea-8c80-e629448189b5")
+	)
+	(fp_line
+		(start -1.4097 -1.8415)
+		(end 1.4097 -1.8415)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "37fb6fae-b1c3-42d6-9115-ee6fb0984b29")
+	)
+	(fp_line
+		(start -1.4097 1.8415)
+		(end 1.4097 1.8415)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4c54ad9-a65a-417f-8244-701327ab2dae")
+	)
+	(fp_line
+		(start 1.4097 -1.8415)
+		(end 1.4097 1.8415)
+		(stroke
+			(width 0.0508)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "706dbe27-59ba-47ff-a85a-46a9c23449bb")
+	)
+	(fp_line
+		(start -0.9144 -0.6985)
+		(end -0.9144 0.6985)
+		(stroke
+			(width 0.0508)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "904ac015-2930-4ca0-a505-a63749d61f86")
+	)
+	(fp_line
+		(start -0.9144 -0.6985)
+		(end 0.9144 -0.6985)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1bec9689-0d3e-401d-b816-6b9a969f1ff7")
+	)
+	(fp_line
+		(start 0.9144 -0.6985)
+		(end 0.9144 0.6985)
+		(stroke
+			(width 0.0508)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3cbfc03e-b2cf-4f01-9d4c-047a123a1980")
+	)
+	(fp_line
+		(start 0.9144 0.6985)
+		(end -0.9144 0.6985)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c6b3f80-a768-41f3-8f97-bf78677ac28f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2dfd6efa-e1ab-4e55-ab2b-7f9e70f33afa")
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.1778)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9144 0.508)
+		(size 0.7874 2.4638)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "958f80d5-b7aa-4100-9f8f-c88ef419994d")
+	)
+	(pad "2" smd rect
+		(at 0.9144 -0.508)
+		(size 0.7874 2.4638)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dbf61a86-b574-45d2-ba89-95e1ee8fabb2")
+	)
+	(model "${KIPRJMOD}/libraries/3D/Coilcraft-0906-5L.STEP"
+		(offset
+			(xyz -0.9144 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
